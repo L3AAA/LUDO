@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./opener.css" />
+		<link rel="icon" href="img/favicon.ico">
+		<title>LUDO Ca$hflow</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<nav>
+			<h1 class="logo">Ca$hflow.</h1>
+		</nav>
+		<section class="hero-section">
+			<img
+				src="./img/hero.jpg"
+				class="hero-img"
+				alt="LUDO - Ca$hflow"
+			/>
+			<h1 class="cta">
+				<div class="cta-text">
+					<div><span class="cta-1">Roll</span></div>
+					<div><span class="cta-2">the</span></div>
+					<div><span class="cta-3">Dice.</span></div>
+				</div>
+				<div class="cta-text">
+					<div><span class="cta-4">Win</span></div>
+					<div><span class="cta-5">Ca$h</span></div>
+					<div><span class="cta-6">Now.</span></div>
+				</div>
+
+				<a>
+					<button id="cta-button" class="cta-btn" >Explore</button>
+				</a>
+				
+
+			</h1>
+		</section>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+			integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="./opener.js"></script>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		
+		<script>
+			$(document).ready(function() {
+				$("#cta-button").click(function() {
+					$("body").fadeOut(1000, function() {
+						window.location.href = "file:///C:/Users/aandr/OneDrive/Desktop/Directory/2%20-%20Work/2-%20Coding/VS%20code/Web%20Dev/LUDO%20CashFlow/MAIN/index.html";
+					});
+				});
+			});
+		</script>
+		
+
+	</body>
+</html>
